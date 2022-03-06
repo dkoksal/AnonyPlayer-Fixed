@@ -277,7 +277,7 @@ address=$(echo $radio | grep .onion | sed -e 's@http://@@' -e 's/\(.*\.onion\).*
 if [ "$address" == "23" ]; then
 station=`$radio|sed 's@http://@@'`
 else
-station="76qugh5bey5gum7l.onion"
+station="anonyradixhkgh5myfrkarggfnmdzzhhcgoy2v66uf7sml27to5n2tid.onion"
   case "$1" in
 	jazz|AnonyJazz)
 	    stream=AnonyJazz
